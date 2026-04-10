@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="linearalgebra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FEATURES_SUMMARY.md" />
+    <None Include="REDESIGN_SUMMARY.md" />
+    <None Include="PROJECT_COMPLETION_SUMMARY.md" />
+    <None Include="SHOWCASE.md" />
+    <None Include="README.md" />
+    <None Include="FINAL_PROJECT_REPORT.md" />
+    <None Include="BUG_FIX_REPORT.md" />
+    <None Include="BUG_FIX_VISUAL_COMPARISON.md" />
+    <None Include="COMPLETE_BUG_FIX_DOCUMENTATION.md" />
+    <None Include="QUICK_FIX_REFERENCE.md" />
+    <None Include="BUG_INVESTIGATION_COMPLETE.md" />
+    <None Include="BUG_FIX_EXECUTIVE_SUMMARY.md" />
+    <None Include="DOCUMENTATION_INDEX.md" />
+    <None Include="FINAL_BUG_FIX_SUMMARY.md" />
+    <None Include="DEPLOYMENT_CHECKLIST.md" />
+    <None Include="SEARCH_FILTER_FEATURE.md" />
+    <None Include="SEARCH_IMPLEMENTATION_GUIDE.md" />
+    <None Include="NEXT_STEPS_SEARCH_FILTER.md" />
+    <None Include="QUICK_REFERENCE_SEARCH.md" />
+    <None Include="BUILD_INSTRUCTIONS.md" />
+    <None Include="COMPLETE_PROJECT_SUMMARY.md" />
+    <None Include="MASTER_DOCUMENTATION_INDEX.md" />
+    <None Include="SEARCH_FEATURE_IMPLEMENTED.md" />
+    <None Include="PROJECT_EXPANSION_COMPLETE.md" />
+    <None Include="QUICK_START_v7.md" />
+    <None Include="FINAL_SUMMARY.md" />
+    <None Include="FILE_STRUCTURE_INDEX.md" />
+    <None Include="YOU_DID_IT.md" />
+    <None Include="COMPLETE_FILE_LISTING.md" />
+    <None Include="BUILD_COMPLETE.md" />
+    <None Include="RUN_NOW.md" />
+    <None Include="INSTALL_README.md" />
+    <None Include="installer.nsi" />
+    <None Include="BUILD_AND_DISTRIBUTION.md" />
+    <None Include="create-distribution.ps1" />
+    <None Include="install.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="FEATURES_AND_SPECS.md" />
+    <None Include="QUICK_START.md" />
+    <None Include="READY_FOR_DOWNLOAD.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+    <Text Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Games\dice_roller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\tic_tac_toe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\problem_solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator\enhanced_calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\games_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\solver_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
